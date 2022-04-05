@@ -65,9 +65,6 @@ header {
 
 /************ MEDIA QUERIES (MEDIUM DEVICES) ************/
 @media screen and (max-width: 1024px) {
-  header {
-    height: 68vh;
-  }
 }
 
 /************ MEDIA QUERIES (SMALL DEVICES) ************/
@@ -76,7 +73,20 @@ header {
     height: 100vh;
   }
 
-  .header__socials, .scroll__down {
+  .header__socials,
+  .scroll__down {
     display: none;
+  }
+}
+
+/************ MEDIA QUERIES (VERY SMALL DEVICES) ************/
+@media screen and (max-width: 300px) {
+  .cta {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .me {
+    height: 25rem;
   }
 }

@@ -35,7 +35,7 @@ a:hover {
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
-  --container-width-ms: 90%;
+  --container-width-sm: 90%;
 }
 
 html {
@@ -73,7 +73,6 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 100vh;
 }
 
 section > h2, section > h5 {
@@ -113,7 +112,7 @@ section > h2 {
 }
 
 img {
-  display: block;
+  /* display: block; */
   width: 100%;
   object-fit: cover;
 }
@@ -138,5 +137,13 @@ img {
 
   section > h2{
     margin-bottom: 2rem;
+  }
+}
+
+/* MEDIA QUERIES (VERY SMALL DEVICES */
+
+@media screen and (max-width: 300px) {
+  .btn {
+    padding: 0.5rem 0.6rem;
   }
 }
