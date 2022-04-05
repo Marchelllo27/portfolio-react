@@ -19,35 +19,35 @@ const data = [
   },
   {
     id: 2,
-    image: IMG1,
+    image: IMG2,
     title: "This is a portfolio item title",
     github: "https://github.com",
     demo: "https://dribbble.com",
   },
   {
     id: 3,
-    image: IMG1,
+    image: IMG3,
     title: "This is a portfolio item title",
     github: "https://github.com",
     demo: "https://dribbble.com",
   },
   {
     id: 4,
-    image: IMG1,
+    image: IMG4,
     title: "This is a portfolio item title",
     github: "https://github.com",
     demo: "https://dribbble.com",
   },
   {
     id: 5,
-    image: IMG1,
+    image: IMG5,
     title: "This is a portfolio item title",
     github: "https://github.com",
     demo: "https://dribbble.com",
   },
   {
     id: 6,
-    image: IMG1,
+    image: IMG6,
     title: "This is a portfolio item title",
     github: "https://github.com",
     demo: "https://dribbble.com",
@@ -61,26 +61,9 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className={`container ${classes["portfolio__container"]}`}>
-      {data.map(project => <Project key={project.id} id={project.id} data={project}/>)}
-
-        {/* <article className={classes["portfolio__item"]}>
-          <div className={classes["portfolio__item-image"]}>
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className={classes["portfolio__item-cta"]}>
-            <a href="https//github.com" className="btn">
-              Github
-            </a>
-            <a
-              href="https//dribbble.com/Alien_pixels"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article> */}
+        {data.map(project => (
+          <Project key={project.id} id={project.id} data={project} />
+        ))}
       </div>
     </section>
   );
