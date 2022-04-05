@@ -11,8 +11,8 @@ const ArticleService = props => {
       </div>
 
       <ul className={classes["service__list"]}>
-        {props.description.map(item => (
-          <li>
+        {props.description.map((item, index) => (
+          <li key={index}>
             <BiCheck className={classes["service__list-icon"]} />
             <p>{item}</p>
           </li>

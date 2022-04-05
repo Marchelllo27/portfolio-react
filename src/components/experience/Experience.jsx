@@ -4,16 +4,16 @@ import Skill from "./Skill";
 import classes from "./Experience.module.css";
 
 const frontendSkills = [
-  { name: "HTML" },
-  { name: "CSS" },
-  { name: "JavaScript" },
-  { name: "React" },
+  { name: "HTML", id: 1 },
+  { name: "CSS", id: 2 },
+  { name: "JavaScript", id: 3 },
+  { name: "React", id: 4 },
 ];
 
 const backendSkills = [
-  { name: "Node.js", detail: "Express" },
-  { name: "MongoDB", detail: "Mongoose" },
-  { name: "MySQL", detail: "Workbench" },
+  { name: "Node.js", detail: "Express", id: 1 },
+  { name: "MongoDB", detail: "Mongoose", id: 2 },
+  { name: "MySQL", detail: "Workbench", id: 3 },
 ];
 
 const Experience = () => {
@@ -27,7 +27,7 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className={classes["experience__content"]}>
             {frontendSkills.map(skill => (
-              <Skill name={skill.name} />
+              <Skill name={skill.name} key={skill.id} />
             ))}
           </div>
         </div>
@@ -36,7 +36,7 @@ const Experience = () => {
           <h3>Backend Development</h3>
           <div className={classes["experience__content"]}>
             {backendSkills.map(skill => (
-              <Skill name={skill.name} detail={skill.detail} />
+              <Skill name={skill.name} detail={skill.detail} key={skill.id} />
             ))}
           </div>
         </div>

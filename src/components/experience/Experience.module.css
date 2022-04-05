@@ -67,7 +67,7 @@
   }
 }
 
-/************ MEDIA QUERIES (VERY SMALL DEVICES) ************/
+/************ MEDIA QUERIES (480PX) ************/
 @media screen and (max-width: 480px) {
   .experience__container > div {
     padding: 2rem 0.5rem;
