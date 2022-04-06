@@ -1,21 +1,21 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import { FiDribbble } from "react-icons/fi";
+import { FaFacebookF } from "react-icons/fa";
 
-import classes from "./Header.module.css"
+import classes from "./Header.module.css";
 
 const HeaderSocials = () => {
   return (
     <div className={classes["header__socials"]}>
-      <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+      <a href="https://www.linkedin.com/in/marc-tofan-8345b0229/" target="_blank" rel="noreferrer">
         <BsLinkedin />
       </a>
-      <a href="https://github.com" target="_blank" rel="noreferrer">
-        <FaGithub/>
+      <a href="https://github.com/Marchelllo27" target="_blank" rel="noreferrer">
+        <FaGithub />
       </a>
-      <a href="https://dribbble.com" target="_blank" rel="noreferrer">
-        <FiDribbble/>
+      <a href="https://www.facebook.com/profile.php?id=100080298755222" target="_blank" rel="noreferrer">
+        <FaFacebookF />
       </a>
     </div>
   );

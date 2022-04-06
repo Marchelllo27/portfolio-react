@@ -32,10 +32,10 @@ const Footer = () => {
       </ul>
 
       <div className={classes["footer__socials"]}>
-        <a href="https://facebook.com" target="_blank" rel="noreferrer">
+        <a href="https://www.facebook.com/profile.php?id=100080298755222" target="_blank" rel="noreferrer">
           <FaFacebookF />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/marc-tofan-8345b0229/" target="_blank" rel="noreferrer">
           <BsLinkedin />
         </a>
       </div>
