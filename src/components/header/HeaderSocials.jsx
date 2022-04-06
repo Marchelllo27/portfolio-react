@@ -8,13 +8,13 @@ import classes from "./Header.module.css"
 const HeaderSocials = () => {
   return (
     <div className={classes["header__socials"]}>
-      <a href="https://linkedin.com" target="_blank">
+      <a href="https://linkedin.com" target="_blank" rel="noreferrer">
         <BsLinkedin />
       </a>
-      <a href="https://github.com" target="_blank">
+      <a href="https://github.com" target="_blank" rel="noreferrer">
         <FaGithub/>
       </a>
-      <a href="https://dribbble.com" target="_blank">
+      <a href="https://dribbble.com" target="_blank" rel="noreferrer">
         <FiDribbble/>
       </a>
     </div>
