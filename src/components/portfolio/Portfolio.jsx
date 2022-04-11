@@ -1,26 +1,26 @@
 import React from "react";
 
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
 import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.jpg";
+import restaurant from "../../assets/restaurant.png";
+import car from "../../assets/car.png"
 import classes from "./Portfolio.module.css";
 import Project from "./Project";
 
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: "This is a portfolio item title",
-    github: "https://github.com",
-    demo: "https://dribbble.com",
+    image: restaurant,
+    title: "The Food order",
+    github: "https://github.com/Marchelllo27/final-project-passerelle-react",
+    demo: "https://eat-smart-passerelle-final.herokuapp.com/",
   },
   {
     id: 2,
-    image: IMG2,
-    title: "This is a portfolio item title",
+    image: car,
+    title: "The Cars sale",
     github: "https://github.com",
     demo: "https://dribbble.com",
   },

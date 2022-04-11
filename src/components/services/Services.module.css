@@ -1,14 +1,14 @@
 .services__container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
 }
 
 .service {
   background: var(--color-bg-variant);
   border-radius: 0 0 2rem 2rem;
   border: 1px solid var(--color-primary);
-  height: fit-content;
+  /* height: fit-content; */
   transition: var(--transition);
 }
 
@@ -50,17 +50,11 @@
   font-size: 0.9rem;
 }
 
-
 /************ MEDIA QUERIES (MEDIUM DEVICES) ************/
 @media screen and (max-width: 1024px) {
-  .services__container {
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-  }
-
-  .service {
+  /* .service {
     height: auto;
-  }
+  } */
 }
 
 /************ MEDIA QUERIES (SMALL DEVICES) ************/
@@ -77,7 +71,7 @@
     padding: 1rem 0.6rem;
   }
 
-  .service__list li{
+  .service__list li {
     display: block;
   }
 

@@ -5,6 +5,7 @@ import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import classes from "./About.module.css";
 import ME from "../../assets/me-about.jpg";
+import lux from "../../assets/lux.jpeg";
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
       <div className={`container ${classes["about__container"]}`}>
         <div className={classes["about__me"]}>
           <div className={classes["about__me-image"]}>
-            <img src={ME} alt="Aboute me" />
+            <img src={lux} alt="About me" />
           </div>
         </div>
         <div className={classes["about__content"]}>
@@ -23,7 +24,7 @@ const About = () => {
             <article className={classes["about__card"]}>
               <FaAward className={classes["about__icon"]} />
               <h5>Experience</h5>
-              <small>3+ Years experience</small>
+              <small>1 year experience</small>
             </article>
 
             <article className={classes["about__card"]}>
@@ -35,18 +36,21 @@ const About = () => {
             <article className={classes["about__card"]}>
               <VscFolderLibrary className={classes["about__icon"]} />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>3+</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis aperiam laboriosam voluptates quisquam officia itaque
-            fugiat eaque voluptatem. Ipsam itaque distinctio numquam odio cumque
-            consequuntur harum minima doloremque ut architecto!
+            Je suis une personne simple et ouverte, j'adore ce métier,
+            j'apprends toujours quelque chose de nouveau en programmation, ça me
+            fait énormément plaisir. Je suis prêt pour de nouveaux défis. Je ne
+            suis pas une personne conflictuelle, il est donc facile de
+            travailler avec moi.
           </p>
 
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
