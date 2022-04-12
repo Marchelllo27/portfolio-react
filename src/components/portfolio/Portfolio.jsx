@@ -21,8 +21,8 @@ const data = [
     id: 2,
     image: car,
     title: "The Cars sale",
-    github: "https://github.com",
-    demo: "https://dribbble.com",
+    github: "https://github.com/Marchelllo27/ONLINE-SHOP-SHWARZ",
+    demo: "https://carsale-node-ejs.herokuapp.com/",
   },
   {
     id: 3,
