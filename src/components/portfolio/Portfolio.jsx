@@ -30,7 +30,7 @@ const data = [
     id: 3,
     image: portfolio,
     title: "This is my portfolio website (React)",
-    github: "https://github.com",
+    github: "https://github.com/Marchelllo27/portfolio-react",
     demo: "https://google.com",
   },
   {
