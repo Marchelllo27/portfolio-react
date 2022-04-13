@@ -1,48 +1,54 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
+import { GiBrain } from "react-icons/gi";
 import { BiMessageSquareDetail } from "react-icons/bi";
+// STYLES
 import classes from "./Nav.module.css";
+// CONTEXT
+import navContext from "../../store/navContext";
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState("#");
+  const navCtx = useContext(navContext);
 
   return (
     <nav>
       <a
         href="/#"
-        onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? classes.active : null}
+        onClick={() => navCtx.changeActiveLink("#")}
+        className={navCtx.activeNavLink === "#" ? classes.active : null}
       >
         <AiOutlineHome />
       </a>
       <a
         href="#about"
-        onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? classes.active : null}
+        onClick={() => navCtx.changeActiveLink("#about")}
+        className={navCtx.activeNavLink === "#about" ? classes.active : null}
       >
         <AiOutlineUser />
       </a>
       <a
         href="#experience"
-        onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? classes.active : null}
+        onClick={() => navCtx.changeActiveLink("#experience")}
+        className={
+          navCtx.activeNavLink === "#experience" ? classes.active : null
+        }
       >
-        <BiBook />
+        <GiBrain/>
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? classes.active : null}
+        href="#libraries"
+        onClick={() => navCtx.changeActiveLink("#services")}
+        className={navCtx.activeNavLink === "#services" ? classes.active : null}
       >
-        <RiServiceLine />
+        <BiBook/>
       </a>
       <a
         href="#contact"
-        onClick={() => setActiveNav("#contact")}
-        className={activeNav === "#contact" ? classes.active : null}
+        onClick={() => navCtx.changeActiveLink("#contact")}
+        className={navCtx.activeNavLink === "#contact" ? classes.active : null}
       >
         <BiMessageSquareDetail />
       </a>

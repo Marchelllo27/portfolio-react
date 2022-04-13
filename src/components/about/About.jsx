@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useContext} from "react";
 
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
@@ -6,7 +6,15 @@ import { VscFolderLibrary } from "react-icons/vsc";
 import classes from "./About.module.css";
 import lux from "../../assets/lux.jpeg";
 
+import navContext from "../../store/navContext";
+
 const About = () => {
+  const navCtx = useContext(navContext)
+
+  const onLetsTalkHandler = () => {
+    navCtx.changeActiveLink("#contact");
+  };
+
   return (
     <section id="about">
       <h5>Get To Know</h5>
@@ -47,7 +55,7 @@ const About = () => {
             travailler avec moi.
           </p>
 
-          <a href="#contact" className="btn btn-primary">
+          <a href="#contact" className="btn btn-primary" onClick={onLetsTalkHandler}>
             Let's Talk
           </a>
         </div>

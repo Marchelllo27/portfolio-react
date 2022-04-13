@@ -29,9 +29,9 @@ const frontEndLibraries = [
 "animate.css"
 ]
 
-const Services = () => {
+const Libraries = () => {
   return (
-    <section id="services">
+    <section id="libraries">
       <h5>What I Use</h5>
       <h2>Libraries/Frameworks</h2>
 
@@ -43,4 +43,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Libraries;

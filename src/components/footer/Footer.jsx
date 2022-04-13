@@ -1,33 +1,40 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
-import React from "react";
+import React, {useContext} from "react";
 
 import { FaFacebookF } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import classes from "./Footer.module.css";
+import navContext from "../../store/navContext";
 
 const Footer = () => {
+  const navCtx = useContext(navContext)
+
+  const onLinkClickHandler = (value) => {
+    navCtx.changeActiveLink(value);
+  };
+
   return (
     <footer id="footer">
       <a href="/#" className={classes["footer__logo"]}>Tofan Marc</a>
 
       <ul className={classes.permalinks}>
         <li>
-          <a href="/#">Home</a>
+          <a href="/#" onClick={onLinkClickHandler.bind(null, "#")}>Home</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about" onClick={onLinkClickHandler.bind(null, "#about")}>About</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#experience" onClick={onLinkClickHandler.bind(null, "#experience")}>Experience</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#libraries" onClick={onLinkClickHandler.bind(null, "#services")}>Libraries</a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio" onClick={onLinkClickHandler.bind(null, "#portfolio")}>Portfolio</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact" onClick={onLinkClickHandler.bind(null, "#contact")}>Contact</a>
         </li>
       </ul>
 
@@ -35,7 +42,7 @@ const Footer = () => {
         <a href="https://www.facebook.com/profile.php?id=100080298755222" target="_blank" rel="noreferrer">
           <FaFacebookF />
         </a>
-        <a href="https://www.linkedin.com/in/marc-tofan-8345b0229/" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/marc-tofan-8345b0229/ onClick={}" target="_blank" rel="noreferrer">
           <BsLinkedin />
         </a>
       </div>
