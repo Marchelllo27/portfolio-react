@@ -28,8 +28,8 @@ const About = () => {
 
             <article className={classes["about__card"]}>
               <FiUsers className={classes["about__icon"]} />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <h5>Motivation</h5>
+              <small>1000+</small>
             </article>
 
             <article className={classes["about__card"]}>
