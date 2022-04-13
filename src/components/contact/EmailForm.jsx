@@ -2,19 +2,19 @@ import React, { useState, useRef, useContext } from "react";
 import validator from "validator";
 import emailjs from "@emailjs/browser";
 
-import context from "../../store/context"
+import context from "../../store/context";
 import classes from "./Contact.module.css";
 
 const EmailForm = () => {
   const ctx = useContext(context);
   const [error, setError] = useState(false);
+
   const nameRef = useRef();
   const emailRef = useRef();
   const messageRef = useRef();
 
   const sendEmail = e => {
     e.preventDefault();
-
     if (
       nameRef.current.value.trim() !== "" &&
       validator.isEmail(emailRef.current.value) &&
@@ -27,13 +27,13 @@ const EmailForm = () => {
         "GXo-_8IWe6C53Hr_5"
       );
       e.target.reset();
+
       ctx.showHideNotification(true);
-      console.log("good");
       setError(false);
     } else {
       return setError(true);
     }
-  }
+  };
 
   return (
     <form onSubmit={sendEmail}>
