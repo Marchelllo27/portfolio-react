@@ -1,13 +1,13 @@
 import React, { useContext } from "react";
 
-import navContext from "../../store/navContext";
+import context from "../../store/context";
 import CTA from "./CTA";
 import ME from "../../assets/me.png";
 import classes from "./Header.module.css";
 import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
-  const navCtx = useContext(navContext);
+  const navCtx = useContext(context);
 
   const onScrollDownHandler = () => navCtx.changeActiveLink("#contact");
   return (

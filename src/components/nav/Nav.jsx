@@ -7,10 +7,10 @@ import { BiMessageSquareDetail } from "react-icons/bi";
 // STYLES
 import classes from "./Nav.module.css";
 // CONTEXT
-import navContext from "../../store/navContext";
+import context from "../../store/context";
 
 const Nav = () => {
-  const navCtx = useContext(navContext);
+  const navCtx = useContext(context);
 
   return (
     <nav>

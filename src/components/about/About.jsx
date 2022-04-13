@@ -6,10 +6,10 @@ import { VscFolderLibrary } from "react-icons/vsc";
 import classes from "./About.module.css";
 import lux from "../../assets/lux.jpeg";
 
-import navContext from "../../store/navContext";
+import context from "../../store/context";
 
 const About = () => {
-  const navCtx = useContext(navContext)
+  const navCtx = useContext(context)
 
   const onLetsTalkHandler = () => {
     navCtx.changeActiveLink("#contact");

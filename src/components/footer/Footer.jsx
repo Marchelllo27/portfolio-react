@@ -4,10 +4,10 @@ import React, {useContext} from "react";
 import { FaFacebookF } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import classes from "./Footer.module.css";
-import navContext from "../../store/navContext";
+import context from "../../store/context";
 
 const Footer = () => {
-  const navCtx = useContext(navContext)
+  const navCtx = useContext(context)
 
   const onLinkClickHandler = (value) => {
     navCtx.changeActiveLink(value);

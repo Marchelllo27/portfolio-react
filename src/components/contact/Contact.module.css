@@ -59,6 +59,10 @@ textarea {
   color: var(--color-white);
 }
 
+.error {
+  color: rgb(243, 122, 122);
+}
+
 /* MEDIA QUERIES (MEDIUM DEVICES */
 @media screen and (max-width: 1024px) {
   .contact__container {

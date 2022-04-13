@@ -1,0 +1,29 @@
+.notification__container {
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  background: var(--color-primary);
+  color: var(--color-bg);
+  border-radius: 5px;
+  width: 80%;
+  max-width: 20rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0.2rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.closeBtn:hover {
+  color: var(--color-white);
+}

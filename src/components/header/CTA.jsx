@@ -1,11 +1,11 @@
 import React, { useContext } from "react";
 
-import navContext from "../../store/navContext";
+import context from "../../store/context";
 import CV from "../../assets/cv.pdf";
 import classes from "./Header.module.css";
 
 const CTA = () => {
-  const navCtx = useContext(navContext)
+  const navCtx = useContext(context)
 
   const onLetsTalkHandler = () => {
     navCtx.changeActiveLink("#contact");

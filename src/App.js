@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 
 // Components
 import Header from "./components/header/Header";
@@ -9,12 +9,15 @@ import Libraries from "./components/libraries/Libraries";
 import Portfolio from "./components/portfolio/Portfolio";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import Notification from "./components/others/Notification";
 // Context
-import NavContextProvider from "./store/NavContextProvider";
+import context from "./store/context";
 
 const App = () => {
+  const Ctx = useContext(context);
+
   return (
-    <NavContextProvider>
+    <>
       <Header />
       <Nav />
       <About />
@@ -23,7 +26,8 @@ const App = () => {
       <Portfolio />
       <Contact />
       <Footer />
-    </NavContextProvider>
+      {Ctx.showNotification && <Notification title="Email has been sent" />}
+    </>
   );
 };
 
