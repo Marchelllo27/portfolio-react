@@ -4,7 +4,6 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import classes from "./About.module.css";
-import ME from "../../assets/me-about.jpg";
 import lux from "../../assets/lux.jpeg";
 
 const About = () => {
@@ -24,7 +23,7 @@ const About = () => {
             <article className={classes["about__card"]}>
               <FaAward className={classes["about__icon"]} />
               <h5>Experience</h5>
-              <small>1 year experience</small>
+              <small>6 months experience</small>
             </article>
 
             <article className={classes["about__card"]}>
@@ -36,7 +35,7 @@ const About = () => {
             <article className={classes["about__card"]}>
               <VscFolderLibrary className={classes["about__icon"]} />
               <h5>Projects</h5>
-              <small>3+</small>
+              <small>5+</small>
             </article>
           </div>
 
