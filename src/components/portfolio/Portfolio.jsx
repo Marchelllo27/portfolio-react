@@ -31,7 +31,7 @@ const data = [
     image: portfolio,
     title: "This is my portfolio website (React)",
     github: "https://github.com/Marchelllo27/portfolio-react",
-    demo: "https://google.com",
+    demo: "https://portfolio-react-marc.herokuapp.com/",
   },
   {
     id: 4,
