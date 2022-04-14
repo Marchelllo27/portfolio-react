@@ -30,8 +30,8 @@ const data = [
     id: 3,
     image: portfolio,
     title: "This is my portfolio website (React)",
-    github: "https://portfolio-marc.netlify.app",
-    demo: "https://portfolio-react-marc.herokuapp.com/",
+    github: "https://github.com/Marchelllo27/portfolio-react",
+    demo: "https://portfolio-marc.netlify.app",
   },
   {
     id: 4,
