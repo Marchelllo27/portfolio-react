@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 
 import context from "../../store/context";
 import CTA from "./CTA";
-import ME from "../../assets/me.png";
 import classes from "./Header.module.css";
 import HeaderSocials from "./HeaderSocials";
 
@@ -23,9 +22,6 @@ const Header = () => {
         <div className={classes.me}>
           <img src={developer} alt="developer" />
         </div>
-        {/* <div className={classes.me}>
-          <img src={ME} alt="me" />
-        </div> */}
         <a
           href="#contact"
           className={classes["scroll__down"]}
