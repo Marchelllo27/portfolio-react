@@ -34,7 +34,7 @@ const Contact = () => {
             <h4>Messenger</h4>
             <h5>Tofan Marc</h5>
             <a
-              href="https://m.me/profile.php?id=100080298755222"
+              href="https://m.me/Mara-109180351765590"
               target="_blank"
               rel="noreferrer"
             >

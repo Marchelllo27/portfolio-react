@@ -41,7 +41,7 @@ header {
 /*********** ME ***********/
 
 .me {
-  background: linear-gradient(var(--color-primary), transparent);
+  /* background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
   height: 30rem;
   position: absolute;
@@ -49,7 +49,14 @@ header {
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  padding: 5rem 1.5rem 1.5rem 1.5rem; */
+  width: 50%;
+  position: absolute;
+  left: calc(50%);
+  transform: translateX(-50%);
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 10rem;
 }
 
 /*********** SCROLL DOWN ***********/
@@ -77,6 +84,10 @@ header {
   .scroll__down {
     display: none;
   }
+
+  .me {
+    width: 70%;
+  }
 }
 
 /************ MEDIA QUERIES (VERY SMALL DEVICES) ************/
@@ -87,6 +98,6 @@ header {
   }
 
   .me {
-    height: 25rem;
+    width: 90%;
   }
 }

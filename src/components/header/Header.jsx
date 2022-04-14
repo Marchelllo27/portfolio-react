@@ -6,6 +6,8 @@ import ME from "../../assets/me.png";
 import classes from "./Header.module.css";
 import HeaderSocials from "./HeaderSocials";
 
+import developer from "../../assets/programmer.png"
+
 const Header = () => {
   const navCtx = useContext(context);
 
@@ -19,8 +21,11 @@ const Header = () => {
         <CTA />
         <HeaderSocials />
         <div className={classes.me}>
-          <img src={ME} alt="me" />
+          <img src={developer} alt="developer" />
         </div>
+        {/* <div className={classes.me}>
+          <img src={ME} alt="me" />
+        </div> */}
         <a
           href="#contact"
           className={classes["scroll__down"]}
