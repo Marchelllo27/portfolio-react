@@ -21,39 +21,46 @@ const data = [
   },
   {
     id: 2,
+    image: travel,
+    title: "Your Places (MERN Stack)",
+    github: "https://github.com/Marchelllo27/mern-guide-places",
+    demo: "https://mern-guide-frontend.web.app",
+  },
+  {
+    id: 3,
     image: car,
     title: "The Cars sale(Node + EJS)",
     github: "https://github.com/Marchelllo27/ONLINE-SHOP-SHWARZ",
     demo: "https://carsale-node-ejs.herokuapp.com/",
   },
   {
-    id: 3,
+    id: 4,
     image: portfolio,
     title: "This is my portfolio website (React)",
     github: "https://github.com/Marchelllo27/portfolio-react",
     demo: "https://portfolio-marc.netlify.app",
   },
   {
-    id: 4,
+    id: 5,
     image: church,
     title: "The church website (HTML/CSS/JS)",
     github: "https://github.com/Marchelllo27/Marchelllo27.github.io",
     demo: "https://marchelllo27.github.io/",
   },
   {
-    id: 5,
+    id: 6,
     image: hosting,
     title: "The Hosting Website(HTML/CSS)",
     github: "https://github.com/Marchelllo27/loruki-website",
     demo: "https://loruki-demo-hosting.netlify.app",
   },
-  {
-    id: 6,
-    image: travel,
-    title: "The travel website(HTML/CSS/JS)",
-    github: "https://github.com/Marchelllo27/Travel.CreatWebsite-With-Video-Background",
-    demo: "https://travel-backgroundvideo.netlify.app/",
-  },
+  // {
+  //   id: 6,
+  //   image: travel,
+  //   title: "The travel website(HTML/CSS/JS)",
+  //   github: "https://github.com/Marchelllo27/Travel.CreatWebsite-With-Video-Background",
+  //   demo: "https://travel-backgroundvideo.netlify.app/",
+  // },
 ];
 
 const Portfolio = () => {
