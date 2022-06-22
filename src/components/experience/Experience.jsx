@@ -7,8 +7,9 @@ const frontendSkills = [
   { name: "HTML", id: 1 },
   { name: "CSS", id: 2 },
   { name: "JavaScript", id: 3 },
-  { name: "React", id: 4 },
-  { name: "TypeScript", id: 5 },
+  { name: "TypeScript", id: 4 },
+  { name: "React", id: 5 },
+  { name: "NextJs", id: 6 },
 ];
 
 const backendSkills = [
