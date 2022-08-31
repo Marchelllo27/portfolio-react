@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 
 import context from "../../store/context";
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/cv-en.pdf";
 import classes from "./Header.module.css";
 
 const CTA = () => {

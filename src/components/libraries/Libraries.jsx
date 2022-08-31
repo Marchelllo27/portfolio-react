@@ -10,11 +10,10 @@ const backEndLibraries = [
 "JWT",
 "Multer",
 "JEST",
+"Supertest",
 "bcrypt",
 "dotenv",
 "pre-commit",
-"nodemon",
-"cors"
 ]
 
 const frontEndLibraries = [
@@ -24,9 +23,8 @@ const frontEndLibraries = [
 "Formik",
 "Yup",
 "MUI",
+"Styled-Components",
 "JEST",
-"emailjs",
-"animate.css"
 ]
 
 const Libraries = () => {

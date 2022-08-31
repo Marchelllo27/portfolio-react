@@ -1,15 +1,15 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import classes from "./About.module.css";
-import lux from "../../assets/lux.jpeg";
+import lux from "../../assets/me1.jpg";
 
 import context from "../../store/context";
 
 const About = () => {
-  const navCtx = useContext(context)
+  const navCtx = useContext(context);
 
   const onLetsTalkHandler = () => {
     navCtx.changeActiveLink("#contact");
@@ -31,7 +31,7 @@ const About = () => {
             <article className={classes["about__card"]}>
               <FaAward className={classes["about__icon"]} />
               <h5>Experience</h5>
-              <small>6 months experience</small>
+              <small>1.5+ year experience</small>
             </article>
 
             <article className={classes["about__card"]}>
@@ -43,16 +43,13 @@ const About = () => {
             <article className={classes["about__card"]}>
               <VscFolderLibrary className={classes["about__icon"]} />
               <h5>Projects</h5>
-              <small>5+</small>
+              <small>10+</small>
             </article>
           </div>
 
           <p>
-            Je suis une personne simple et ouverte, j'adore ce métier,
-            j'apprends toujours quelque chose de nouveau en programmation, ça me
-            fait énormément plaisir. Je suis prêt pour de nouveaux défis. Je ne
-            suis pas une personne conflictuelle, il est donc facile de
-            travailler avec moi.
+            I'm simple, positive, loving what I do, a bit of a perfectionist, always learning and I love it. On top of
+            that, it's all true.
           </p>
 
           <a href="#contact" className="btn btn-primary" onClick={onLetsTalkHandler}>
