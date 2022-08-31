@@ -7,11 +7,19 @@ import church from "../../assets/church.png";
 import hosting from "../../assets/hosting.png";
 import portfolio from "../../assets/portfolio.png";
 import travel from "../../assets/travel.png";
+import youtube from "../../assets/youtube.png";
 
 import Project from "./Project";
 import classes from "./Portfolio.module.css";
 
 const data = [
+  {
+    id: "1unique",
+    image: youtube,
+    title: "The Youtube Clone(MERN Stack)",
+    github: "https://github.com/Marchelllo27/youtube-clone",
+    demo: "https://youtube-clone-chi-virid.vercel.app",
+  },
   {
     id: 1,
     image: restaurant,

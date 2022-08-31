@@ -5,7 +5,7 @@
 }
 
 .about__me {
-  width: 100%;
+  width: 90%;
   aspect-ratio: 1/1; /* width always equal to height */
   border-radius: 2rem;
   background: linear-gradient(
