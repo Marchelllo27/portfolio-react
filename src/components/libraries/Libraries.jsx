@@ -19,7 +19,8 @@ const backEndLibraries = [
 const frontEndLibraries = [
 "React",
 "Redux(Toolkit)",
-"React Router",
+"RTK Query",
+"React Router 6",
 "Formik",
 "Yup",
 "MUI",
