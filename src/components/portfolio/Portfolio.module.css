@@ -23,7 +23,7 @@
   overflow: hidden;
 }
 
-.portfolio__item-image img{
+.portfolio__item-image img {
   height: 100%;
 }
 
@@ -36,7 +36,6 @@
   gap: 1rem;
   margin-bottom: 1rem;
 }
-
 
 /************ MEDIA QUERIES (MEDIUM DEVICES) ************/
 @media screen and (max-width: 1024px) {
@@ -54,7 +53,6 @@
   }
 }
 
-
 /************ MEDIA QUERIES (VERY SMALL DEVICES) ************/
 @media screen and (max-width: 300px) {
   .portfolio__item {
@@ -62,6 +60,6 @@
   }
 
   .portfolio__item-cta {
-   flex-direction: column;
+    flex-direction: column;
   }
 }
