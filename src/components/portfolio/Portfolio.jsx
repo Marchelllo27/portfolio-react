@@ -1,7 +1,6 @@
 import React from "react";
 
 // import pictures
-import car from "../../assets/car.png";
 import church from "../../assets/church.png";
 import hosting from "../../assets/hosting.png";
 import portfolio from "../../assets/portfolio.png";
