@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 
 import context from "../../store/context";
-import CV from "../../assets/cv-en.pdf";
+import CV from "../../assets/resume.pdf";
 import classes from "./Header.module.css";
 
 const CTA = () => {
@@ -14,7 +14,7 @@ const CTA = () => {
   return (
     <div className={classes.cta}>
       <a href={CV} className="btn" download>
-        Download CV
+        Download Resume
       </a>
       <a
         href="#contact"
