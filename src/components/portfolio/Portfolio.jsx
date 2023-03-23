@@ -23,7 +23,7 @@ const data = [
   {
     id: 2,
     image: gym,
-    title: "Gym Workouts",
+    title: "Gym Workouts(React + RapidAPI)",
     github: "https://github.com/Marchelllo27/gym_exercises",
     demo: "https://gym-muscles.netlify.app",
   },
@@ -34,20 +34,6 @@ const data = [
     github: "https://github.com/Marchelllo27/final-project-passerelle-react",
     demo: "https://eat-smart-app.netlify.app",
   },
-  // {
-  //   id: 4,
-  //   image: travel,
-  //   title: "Your Places (MERN Stack)",
-  //   github: "https://github.com/Marchelllo27/mern-guide-places",
-  //   demo: "https://mern-guide-frontend.web.app",
-  // },
-  // {
-  //   id: 5,
-  //   image: car,
-  //   title: "The Cars sale(Node + EJS)",
-  //   github: "https://github.com/Marchelllo27/ONLINE-SHOP-SHWARZ",
-  //   demo: "https://carsale-node-ejs.herokuapp.com/",
-  // },
   {
     id: 6,
     image: portfolio,
@@ -76,6 +62,20 @@ const data = [
     github: "https://github.com/Marchelllo27/Travel.CreatWebsite-With-Video-Background",
     demo: "https://travel-backgroundvideo.netlify.app/",
   },
+  // {
+  //   id: 10,
+  //   image: car,
+  //   title: "The Cars sale(Node + EJS)",
+  //   github: "https://github.com/Marchelllo27/ONLINE-SHOP-SHWARZ",
+  //   demo: "https://carsale-node-ejs.herokuapp.com/",
+  // },
+  // {
+  //   id: 4,
+  //   image: travel,
+  //   title: "Your Places (MERN Stack)",
+  //   github: "https://github.com/Marchelllo27/mern-guide-places",
+  //   demo: "https://mern-guide-frontend.web.app",
+  // },
 ];
 
 const Portfolio = () => {

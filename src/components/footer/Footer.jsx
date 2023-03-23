@@ -49,7 +49,7 @@ const Footer = () => {
 
 
       <div className={classes["footer__copyright"]}>
-        <small>&copy; Tofan Marc. All rights reserved.</small>
+        <small>&copy; Tofan Mark. All rights reserved.</small>
       </div>
     </footer>
   );
