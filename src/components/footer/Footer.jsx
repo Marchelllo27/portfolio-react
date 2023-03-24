@@ -15,7 +15,7 @@ const Footer = () => {
 
   return (
     <footer id="footer">
-      <a href="/#" className={classes["footer__logo"]}>Tofan Marc</a>
+      <a href="/#" className={classes["footer__logo"]}>Tofan Mark</a>
 
       <ul className={classes.permalinks}>
         <li>
