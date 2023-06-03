@@ -48,8 +48,10 @@ const About = () => {
           </div>
 
           <p>
-            I'm simple, positive, loving what I do, a bit of a perfectionist, always learning and I love it. On top of
-            that, it's all true.
+            I'm Front-End Engineer with a strong foundation in JavaScript and React. Committed to continuous learning and
+            staying up-to-date with the latest industry trends and best practices.
+            I have also good understanding of Back End technologies such as a Node.js, MongoDB.
+            Excited to leverage my experience and attention to detail to contribute to innovative projects and drive meaningful impact.
           </p>
 
           <a href="#contact" className="btn btn-primary" onClick={onLetsTalkHandler}>
