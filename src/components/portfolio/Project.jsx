@@ -10,20 +10,10 @@ const Project = props => {
       </div>
       <h3>{props.data.title}</h3>
       <div className={classes["portfolio__item-cta"]}>
-        <a
-          href={props.data.github}
-          className="btn"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href={props.data.github} className="btn" target="_blank" rel="noreferrer">
           Github
         </a>
-        <a
-          href={props.data.demo}
-          className="btn btn-primary"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href={props.data.demo} className="btn btn-primary" target="_blank" rel="noreferrer">
           Live Demo
         </a>
       </div>

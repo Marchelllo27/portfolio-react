@@ -24,6 +24,7 @@ const frontEndLibraries = [
 "Formik",
 "Yup",
 "MUI",
+"Tailwindcss",
 "Styled-Components",
 "JEST",
 ]
