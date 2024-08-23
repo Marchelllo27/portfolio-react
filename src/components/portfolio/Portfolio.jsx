@@ -1,4 +1,4 @@
-import React, { useId } from "react";
+import React from "react";
 
 // import pictures
 import church from "../../assets/church.png";
@@ -78,11 +78,11 @@ const data = [
   },
 ];
 
+// add uniqu Id to each element.
 data.forEach(item => {
   item.id = item.title;
 });
 
-console.log(data);
 const Portfolio = () => {
   return (
     <section id="portfolio">
