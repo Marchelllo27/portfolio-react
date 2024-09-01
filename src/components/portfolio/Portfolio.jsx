@@ -1,15 +1,12 @@
 import React from "react";
-
 // import pictures
 import church from "../../assets/church.png";
 import hosting from "../../assets/hosting.png";
 import travel from "../../assets/travel.png";
-import gym from "../../assets/gym.png";
 import youtubeImage from "../../assets/youtubeImage.png";
 import eat from "../../assets/eat.png";
 import tShirt from "../../assets/t-shirt.png";
 import brainwave from "../../assets/brainwave.png";
-import car from "../../assets/car.png";
 import clothShop from "../../assets/cloth-shop.png";
 
 import Project from "./Project";
@@ -40,12 +37,6 @@ const data = [
     github: "https://github.com/Marchelllo27/youtube-clone",
     demo: "https://youtube-clone-chi-virid.vercel.app",
   },
-  // {
-  //   image: gym,
-  //   title: "Gym Workouts(React + RapidAPI)",
-  //   github: "https://github.com/Marchelllo27/gym_exercises",
-  //   demo: "https://gym-muscles.netlify.app",
-  // },
   {
     image: eat,
     title: "The Food order(MERN Stack)",
