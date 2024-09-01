@@ -15,7 +15,7 @@ import classes from "./Portfolio.module.css";
 const data = [
   {
     image: clothShop,
-    title: "E-Commerce Cloths Store",
+    title: "E-Commerce Clothing Store",
     github: "https://github.com/Marchelllo27/clothes-e-commerce-shop",
     demo: "https://clothes-e-commerce-shop-d7ly0a242-marchelllo27s-projects.vercel.app",
   },
@@ -39,28 +39,28 @@ const data = [
   },
   {
     image: eat,
-    title: "The Food order(MERN Stack)",
+    title: "The Virtual Restaurant(MERN Stack)",
     github: "https://github.com/Marchelllo27/final-project-passerelle-react",
     demo: "https://eat-smart-app.netlify.app",
   },
-  {
-    image: church,
-    title: "The church website (HTML/CSS/JS)",
-    github: "https://github.com/Marchelllo27/Marchelllo27.github.io",
-    demo: "https://marchelllo27.github.io/",
-  },
-  {
-    image: hosting,
-    title: "The Hosting Website(HTML/CSS)",
-    github: "https://github.com/Marchelllo27/loruki-website",
-    demo: "https://loruki-demo-hosting.netlify.app",
-  },
-  {
-    image: travel,
-    title: "The travel website(HTML/CSS/JS)",
-    github: "https://github.com/Marchelllo27/Travel.CreatWebsite-With-Video-Background",
-    demo: "https://travel-backgroundvideo.netlify.app/",
-  },
+  // {
+  //   image: church,
+  //   title: "The church website (HTML/CSS/JS)",
+  //   github: "https://github.com/Marchelllo27/Marchelllo27.github.io",
+  //   demo: "https://marchelllo27.github.io/",
+  // },
+  // {
+  //   image: hosting,
+  //   title: "The Hosting Website(HTML/CSS)",
+  //   github: "https://github.com/Marchelllo27/loruki-website",
+  //   demo: "https://loruki-demo-hosting.netlify.app",
+  // },
+  // {
+  //   image: travel,
+  //   title: "The travel website(HTML/CSS/JS)",
+  //   github: "https://github.com/Marchelllo27/Travel.CreatWebsite-With-Video-Background",
+  //   demo: "https://travel-backgroundvideo.netlify.app/",
+  // },
 ];
 
 // add unique Id to each element.
@@ -71,7 +71,7 @@ data.forEach(item => {
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
+      <h5>My Recent Projects</h5>
       <h2>Portfolio</h2>
 
       <div className={`container ${classes["portfolio__container"]}`}>
