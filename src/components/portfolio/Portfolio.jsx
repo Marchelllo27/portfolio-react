@@ -1,8 +1,5 @@
 import React from "react";
 // import pictures
-import church from "../../assets/church.png";
-import hosting from "../../assets/hosting.png";
-import travel from "../../assets/travel.png";
 import youtubeImage from "../../assets/youtubeImage.png";
 import eat from "../../assets/eat.png";
 import tShirt from "../../assets/t-shirt.png";
