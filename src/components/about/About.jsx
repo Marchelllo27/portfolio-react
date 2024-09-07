@@ -4,7 +4,7 @@ import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import classes from "./About.module.css";
-import lux from "../../assets/me1.jpg";
+import me from "../../assets/me.jpg";
 
 import context from "../../store/context";
 
@@ -23,7 +23,7 @@ const About = () => {
       <div className={`container ${classes["about__container"]}`}>
         <div className={classes["about__me"]}>
           <div className={classes["about__me-image"]}>
-            <img src={lux} alt="About me" />
+            <img src={me} alt="About me" />
           </div>
         </div>
         <div className={classes["about__content"]}>
