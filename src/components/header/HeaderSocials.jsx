@@ -8,7 +8,7 @@ import classes from "./Header.module.css";
 const HeaderSocials = () => {
   return (
     <div className={classes["header__socials"]}>
-      <a href="https://www.linkedin.com/in/mark-tofan27" target="_blank" rel="noreferrer">
+      <a href="https://www.linkedin.com/in/marktofan" target="_blank" rel="noreferrer">
         <BsLinkedin />
       </a>
       <a href="https://github.com/Marchelllo27" target="_blank" rel="noreferrer">
