@@ -12,7 +12,7 @@ import classes from "./Portfolio.module.css";
 const data = [
   {
     image: clothShop,
-    title: "E-Commerce Clothing Store",
+    title: "E-Commerce Fashion Store",
     github: "https://github.com/Marchelllo27/clothes-e-commerce-shop",
     demo: "https://clothes-e-commerce-shop-d7ly0a242-marchelllo27s-projects.vercel.app",
   },
@@ -24,7 +24,7 @@ const data = [
   },
   {
     image: youtubeImage,
-    title: "The Youtube Clone(MERN Stack)",
+    title: "Video Sharing App(MERN Stack)",
     github: "https://github.com/Marchelllo27/youtube-clone",
     demo: "https://youtube-clone-chi-virid.vercel.app",
   },
@@ -36,7 +36,7 @@ const data = [
   },
   {
     image: eat,
-    title: "The Virtual Restaurant(MERN Stack)",
+    title: "Food Ordering App(MERN Stack)",
     github: "https://github.com/Marchelllo27/final-project-passerelle-react",
     demo: "https://eat-smart-app.netlify.app",
   },

@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
+// import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import classes from "./About.module.css";
 import me from "../../assets/me.jpg";
@@ -31,14 +31,14 @@ const About = () => {
             <article className={classes["about__card"]}>
               <FaAward className={classes["about__icon"]} />
               <h5>Experience</h5>
-              <small>1 year experience</small>
+              <small>2+ year experience</small>
             </article>
 
-            <article className={classes["about__card"]}>
+            {/* <article className={classes["about__card"]}>
               <FiUsers className={classes["about__icon"]} />
               <h5>Motivation</h5>
               <small>1000+</small>
-            </article>
+            </article> */}
 
             <article className={classes["about__card"]}>
               <VscFolderLibrary className={classes["about__icon"]} />
@@ -48,10 +48,8 @@ const About = () => {
           </div>
 
           <p>
-            I'm Front-End Engineer with a strong foundation in JavaScript and React. Committed to continuous learning and
-            staying up-to-date with the latest industry trends and best practices.
-            I have also good understanding of Back End technologies such as a Node.js, MongoDB.
-            Excited to leverage my experience and attention to detail to contribute to innovative projects and drive meaningful impact.
+            Front-End JavaScript Engineer with 2+ years of experience building responsive, high-performance web
+            applications using React.
           </p>
 
           <a href="#contact" className="btn btn-primary" onClick={onLetsTalkHandler}>

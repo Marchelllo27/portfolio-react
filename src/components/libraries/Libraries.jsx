@@ -25,6 +25,7 @@ const frontEndLibraries = [
 "Yup",
 "MUI",
 "Tailwindcss",
+"SCSS",
 "Styled-Components",
 "JEST",
 ]
