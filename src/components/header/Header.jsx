@@ -14,9 +14,9 @@ const Header = () => {
   return (
     <header>
       <div className={`container ${classes["header__container"]}`}>
-        <h5>Hello I'm</h5>
+        {/* <h5>Hello I'm</h5> */}
         <h1>Tofan Mark</h1>
-        <h5 className="text-light">Front-End JavaScript Developer</h5>
+        <h5 className="text-light">Full-Stack JavaScript Developer</h5>
         <CTA />
         <HeaderSocials />
         <div className={classes.me}>

@@ -31,7 +31,7 @@ const About = () => {
             <article className={classes["about__card"]}>
               <FaAward className={classes["about__icon"]} />
               <h5>Experience</h5>
-              <small>2+ year experience</small>
+              <small>2+ years of experience</small>
             </article>
 
             {/* <article className={classes["about__card"]}>
@@ -48,8 +48,7 @@ const About = () => {
           </div>
 
           <p>
-            Front-End JavaScript Engineer with 2+ years of experience building responsive, high-performance web
-            applications using React.
+          Full-Stack JavaScript Developer passionate about building fast, responsive, and user-friendly web applications..
           </p>
 
           <a href="#contact" className="btn btn-primary" onClick={onLetsTalkHandler}>
